@@ -31,9 +31,8 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-{
+
   "name": "@octocat/my-package",
   "repository": {
     "type": "git",
     "url": "https://github.com/octocat/my-other-repo.git"
-  },
